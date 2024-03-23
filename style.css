@@ -3,10 +3,11 @@
     padding: 0;
     margin: 0;
 }
+/*Tag Selectors*/
 body {
     height: 200vh;
 }
-
+/*Class Selectors*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,13 +42,6 @@ body {
     cursor: pointer;
     border: solid;
 }
-
-
-
-
-#logo {
-    margin-right: 20px;
-}
 .first-row {
     display: flex;
     justify-content: space-between;
@@ -78,4 +72,8 @@ body {
 
 .product-price {
     font-weight: 400;
+}
+/*Id Selectors*/
+#logo {
+    margin-right: 20px;
 }
