@@ -15,12 +15,13 @@
     <div class="navbar">
         <h1>Eccommerce</h1>
         <img src="bx-shopping-bag.svg" alt="Shopping Bag" id="logo">
+    
      
     </div>
   
     <hr>
     
-    <section>
+<section>
  
     
         <div class="container">
@@ -149,8 +150,8 @@
                         <img src="Steel_Metal_Bottle_600_ML_Green_GC3031_01_standard.avif" alt="Water Bottle" width="250" height="250"  class="product-img">
                         <h2 class="product-title">WATER BOTTLE</h2>
                         <span class="product-price">$45</span>
-                        <img src="shopping_bag_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="Shopping Cart"
-                        class="add-cart">
+                        <button class="add-cart"><img src="shopping_bag_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="Shopping Cart"
+                        class="add-cart"></button>
 
                     </div>
                     <!--Box 14-->
@@ -188,26 +189,35 @@
         </div>
                    <!--Cart Section-->
     <div class="cart">
-        <div class="cart-title">YOUR CART</div>
+        <h2 class="cart-title">YOUR CART</h2>
         <hr>
+  
+   
         <div class="cart-content">
+            <div class="cart-items">
         
                 <div class="cart-box">
                     <img src="Adilette_22_Slides_Grey_HP6522_HM1.avif" alt="slides" class="cart-img" width="300" height="300">
                 </div>
-                <div class="cart-detail">
-                    <div class="cart-product-title">SLIDES</div>
-                    <div class="cart-product-price"> $30
-
-                </div>
-            
-        
+                <div class="cart-detail"></div>
+                <div class="cart-product-title">SLIDES</div>
+                <div class="cart-product-price"> $30 </div>
+         
+               
+               
+                
+                
                 <input type="number" class="cart-quantity" value="1">
-                <!--Remove Cart-->
                 <img src="delete_FILL0_wght400_GRAD0_opsz24.svg" alt="Remove" class="cart-remove" id="img-remove">
             </div>
+        </div>
+        
+       
+   
+ 
+            
             <!--Total-->
-            <hr>
+         
             <div class="total">
                 <div class="total-title">Total:</div>
                 <div class="total-price">$0</div>
@@ -215,11 +225,11 @@
             <!--Buy Button-->
             <button class="btn-buy" type="button">Buy Now</button>
             <img src="close_FILL0_wght400_GRAD0_opsz24.svg" alt="Delete" width="20" height="20" id="close-cart">
-        </div>
-
-    </section>
- 
     </div>
+ 
+</section>
+ 
+   
     <script src="business.js"></script>
 </body>
 </html>
